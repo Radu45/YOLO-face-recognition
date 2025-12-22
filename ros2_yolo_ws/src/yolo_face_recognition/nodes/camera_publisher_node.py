@@ -3,16 +3,20 @@ from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
+import yaml
 
-class CameraPublihser(Node):
+class CameraPublisher(Node):
 
     def __init__(self):
 
         super().__init__('camera_publisher')
 
         self.br = CvBridge()
+        with open("config.yaml") as f:
+            config = yaml.safe_load(f)
+        camera_ip = config["camera_ip"]
 
-        self.camera = cv2.VideoCapture(2)
+        self.camera = cv2.VideoCapture(f"tcp://{camera_ip}:8080", cv2.CAP_FFMPEG)
 
         if not self.camera.isOpened():
             self.get_logger().error("Failed to open the camera")
@@ -43,7 +47,7 @@ class CameraPublihser(Node):
 def main(args=None):
 
     rclpy.init(args=args)
-    node = CameraPublihser()
+    node = CameraPublisher()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

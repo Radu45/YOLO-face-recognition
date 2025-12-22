@@ -4,6 +4,7 @@ from cv_bridge import CvBridge
 import cv2
 
 
+
 class Detection(Node):
 
     def __init__(self):

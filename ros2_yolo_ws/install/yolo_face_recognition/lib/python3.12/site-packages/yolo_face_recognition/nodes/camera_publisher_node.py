@@ -4,15 +4,15 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
 
-class CameraPublihser(Node):
+class CameraPublisher(Node):
 
     def __init__(self):
 
         super().__init__('camera_publisher')
 
-        self.bf = CvBridge()
+        self.br = CvBridge()
 
-        self.camera = cv2.VideoCapture(0)
+        self.camera = cv2.VideoCapture("tcp://192.168.1.9:8080", cv2.CAP_FFMPEG)
 
         if not self.camera.isOpened():
             self.get_logger().error("Failed to open the camera")
@@ -41,7 +41,7 @@ class CameraPublihser(Node):
 def main(args=None):
 
     rclpy.init(args=args)
-    node = CameraPublihser()
+    node = CameraPublisher()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

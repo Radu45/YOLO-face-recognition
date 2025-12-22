@@ -1,0 +1,2 @@
+# ignore configuration files with private IPs
+YOLO-face-recognition/ros2_yolo_ws/config.yaml
