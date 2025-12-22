@@ -1,0 +1,22 @@
+[0.644s] Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_face_recognition build --build-base /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/build install --record /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/install.log --single-version-externally-managed install_data
+[0.772s] running egg_info
+[0.781s] writing ../../build/yolo_face_recognition/yolo_face_recognition.egg-info/PKG-INFO
+[0.781s] writing dependency_links to ../../build/yolo_face_recognition/yolo_face_recognition.egg-info/dependency_links.txt
+[0.781s] writing entry points to ../../build/yolo_face_recognition/yolo_face_recognition.egg-info/entry_points.txt
+[0.781s] writing requirements to ../../build/yolo_face_recognition/yolo_face_recognition.egg-info/requires.txt
+[0.781s] writing top-level names to ../../build/yolo_face_recognition/yolo_face_recognition.egg-info/top_level.txt
+[0.799s] reading manifest file '../../build/yolo_face_recognition/yolo_face_recognition.egg-info/SOURCES.txt'
+[0.800s] writing manifest file '../../build/yolo_face_recognition/yolo_face_recognition.egg-info/SOURCES.txt'
+[0.800s] running build
+[0.800s] running build_py
+[0.800s] running install
+[0.803s] running install_lib
+[0.813s] running install_data
+[0.813s] running install_egg_info
+[0.824s] removing '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition-0.0.0-py3.12.egg-info' (and everything under it)
+[0.824s] Copying ../../build/yolo_face_recognition/yolo_face_recognition.egg-info to /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition-0.0.0-py3.12.egg-info
+[0.825s] running install_scripts
+[0.891s] Installing camera_node script to /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/yolo_face_recognition
+[0.891s] Installing detection_node script to /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/yolo_face_recognition
+[0.892s] writing list of installed files to '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/install.log'
+[0.906s] Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_face_recognition build --build-base /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/build install --record /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/yolo_face_recognition/install.log --single-version-externally-managed install_data

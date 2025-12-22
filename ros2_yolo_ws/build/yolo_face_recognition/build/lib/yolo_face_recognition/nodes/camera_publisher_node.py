@@ -10,9 +10,9 @@ class CameraPublihser(Node):
 
         super().__init__('camera_publisher')
 
-        self.br = CvBridge()
+        self.bf = CvBridge()
 
-        self.camera = cv2.VideoCapture(2)
+        self.camera = cv2.VideoCapture(0)
 
         if not self.camera.isOpened():
             self.get_logger().error("Failed to open the camera")
@@ -20,20 +20,18 @@ class CameraPublihser(Node):
         
         self.publisher = self.create_publisher(Image, '/camera/image_raw', 10)
 
-        # timer_callback is called every 1/30 seconds
         self.timer = self.create_timer(1.0/30.0, self.timer_callback)
     
     def timer_callback(self):
 
-        # ret is flag that signals whether a frame was read successfully
         ret, frame = self.camera.read()
 
         if not ret:
             self.get_logger().info("Frame not captured")
         
-        # converting the frame to Image type that can be transmitted on the topic over the network 
+
         msg = self.br.cv2_to_imgmsg(frame, encoding='rgb8')
-        # publishing the node on the '/camera/image_raw'
+
         self.publisher.publish(msg)
     
     def destroy_node(self):
