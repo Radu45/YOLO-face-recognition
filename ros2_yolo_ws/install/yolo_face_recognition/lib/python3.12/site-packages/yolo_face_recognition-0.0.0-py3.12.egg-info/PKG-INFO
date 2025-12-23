@@ -1,8 +1,17 @@
-Metadata-Version: 2.1
-Name: yolo-face-recognition
+Metadata-Version: 2.4
+Name: yolo_face_recognition
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: YOLO face recognition ROS 2 nodes
 Maintainer: radu28
 Maintainer-email: radu28@todo.todo
-License: TODO: License declaration
-Provides-Extra: test
+License: TODO
+Requires-Dist: setuptools
+Requires-Dist: opencv-python
+Requires-Dist: cvzone
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

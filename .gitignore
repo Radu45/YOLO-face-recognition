@@ -1,2 +1,4 @@
 # ignore configuration files with private IPs
-YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition/yolo_face_recognition/nodes/config.yaml
+YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition/yolo_face_recognition/config/config.yaml
+YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition/yolo_face_recognition/models/
+

@@ -4,6 +4,8 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
 import yaml
+from pathlib import Path
+from ament_index_python.packages import get_package_share_directory
 
 class CameraPublisher(Node):
 
@@ -12,7 +14,9 @@ class CameraPublisher(Node):
         super().__init__('camera_publisher')
 
         self.br = CvBridge()
-        with open("config.yaml") as f:
+        pkg_share = get_package_share_directory('yolo_face_recognition')
+        config_path = Path(pkg_share) / 'config' / 'config.yaml'
+        with open(config_path, "r") as f:
             config = yaml.safe_load(f)
         camera_ip = config["camera_ip"]
 

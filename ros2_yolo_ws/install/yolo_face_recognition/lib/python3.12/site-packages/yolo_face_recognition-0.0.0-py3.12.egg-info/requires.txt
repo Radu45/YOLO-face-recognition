@@ -1,4 +1,5 @@
 setuptools
-
-[test]
-pytest
+opencv-python
+cvzone
+numpy
+PyYAML

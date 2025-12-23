@@ -1,1 +1,0 @@
-/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition/setup.py
