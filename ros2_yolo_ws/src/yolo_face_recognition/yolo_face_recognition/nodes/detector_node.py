@@ -1,20 +1,20 @@
 import rclpy 
 from rclpy.node import Node
-from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
+
 
 
 class Detection(Node):
 
     def __init__(self):
-        super().__init__("Detector_node")
+        super().__init__("Detector node initialzed")
 
         #convertor tool 
         self.br = CvBridge()
         self.subscription = self.create_subscription(
             Image, 
-            '/camera/image_raw',
+            '/image_raw',
             self.listener_callback,
             10
         )
