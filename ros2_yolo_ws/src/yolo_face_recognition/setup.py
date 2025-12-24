@@ -24,7 +24,7 @@ setup(
 
         # model files
         ('share/' + package_name + '/models',
-            ['yolo_face_recognition/models/yolov12m-face.pt']),
+            ['yolo_face_recognition/models/yolov12n-face.pt']),
     ],
     install_requires=[
         'setuptools',
