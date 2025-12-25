@@ -3,13 +3,14 @@
 <package format="3">
   <name>yolo_face_recognition</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Face detection node using YOLO</description>
   <maintainer email="radu28@todo.todo">radu28</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
+  <depend>face_msgs</depend> 
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

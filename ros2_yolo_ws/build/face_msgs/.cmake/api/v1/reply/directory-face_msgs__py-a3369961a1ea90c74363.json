@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "face_msgs__py",
+		"source" : "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py"
+	}
+}

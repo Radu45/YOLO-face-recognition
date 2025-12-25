@@ -1,9 +1,11 @@
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/__init__.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/camera_publisher_node.py
+/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/embedding_node.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/detector_node.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/__init__.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/__pycache__/__init__.cpython-312.pyc
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/__pycache__/camera_publisher_node.cpython-312.pyc
+/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/__pycache__/embedding_node.cpython-312.pyc
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/__pycache__/detector_node.cpython-312.pyc
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/lib/python3.12/site-packages/yolo_face_recognition/nodes/__pycache__/__init__.cpython-312.pyc
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition/share/ament_index/resource_index/packages/yolo_face_recognition
