@@ -68,20 +68,26 @@ include CMakeFiles/face_msgs__rosidl_generator_type_description.dir/progress.mak
 
 CMakeFiles/face_msgs__rosidl_generator_type_description: rosidl_generator_type_description/face_msgs/msg/FaceDetections.json
 CMakeFiles/face_msgs__rosidl_generator_type_description: rosidl_generator_type_description/face_msgs/msg/Face.json
+CMakeFiles/face_msgs__rosidl_generator_type_description: rosidl_generator_type_description/face_msgs/msg/FaceEmbeddingArray.json
 
 rosidl_generator_type_description/face_msgs/msg/FaceDetections.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/face_msgs/msg/FaceDetections.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/face_msgs/msg/FaceDetections.json: rosidl_adapter/face_msgs/msg/FaceDetections.idl
 rosidl_generator_type_description/face_msgs/msg/FaceDetections.json: rosidl_adapter/face_msgs/msg/Face.idl
+rosidl_generator_type_description/face_msgs/msg/FaceDetections.json: rosidl_adapter/face_msgs/msg/FaceEmbeddingArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/home/radu28/miniforge3/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/face_msgs/msg/Face.json: rosidl_generator_type_description/face_msgs/msg/FaceDetections.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/face_msgs/msg/Face.json
 
+rosidl_generator_type_description/face_msgs/msg/FaceEmbeddingArray.json: rosidl_generator_type_description/face_msgs/msg/FaceDetections.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/face_msgs/msg/FaceEmbeddingArray.json
+
 face_msgs__rosidl_generator_type_description: CMakeFiles/face_msgs__rosidl_generator_type_description
 face_msgs__rosidl_generator_type_description: rosidl_generator_type_description/face_msgs/msg/Face.json
 face_msgs__rosidl_generator_type_description: rosidl_generator_type_description/face_msgs/msg/FaceDetections.json
+face_msgs__rosidl_generator_type_description: rosidl_generator_type_description/face_msgs/msg/FaceEmbeddingArray.json
 face_msgs__rosidl_generator_type_description: CMakeFiles/face_msgs__rosidl_generator_type_description.dir/build.make
 .PHONY : face_msgs__rosidl_generator_type_description
 

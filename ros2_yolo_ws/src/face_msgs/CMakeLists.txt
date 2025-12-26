@@ -11,6 +11,7 @@ find_package(vision_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FaceDetections.msg"
   "msg/Face.msg"
+  "msg/FaceEmbeddingArray.msg"
   DEPENDENCIES std_msgs sensor_msgs vision_msgs
 )
 

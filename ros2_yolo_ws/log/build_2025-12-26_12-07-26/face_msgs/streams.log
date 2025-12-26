@@ -1,0 +1,297 @@
+[0.010s] Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs -DCMAKE_INSTALL_PREFIX=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.279s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.360s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.365s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.425s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /home/radu28/miniforge3/bin/python3 (found version "3.12.12") found components: Interpreter 
+[0.644s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.738s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.741s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.771s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.815s] -- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)
+[1.247s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.011s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.082s] -- Found PythonExtra: /home/radu28/miniforge3/bin/python3  
+[2.429s] -- Found Python3: /home/radu28/miniforge3/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.493s] -- Configuring done (2.4s)
+[2.527s] -- Generating done (0.0s)
+[2.537s] -- Build files have been written to: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs
+[2.544s] Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs -DCMAKE_INSTALL_PREFIX=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs
+[2.544s] Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs -- -j4 -l4
+[2.574s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.578s] [  1%] Built target ament_cmake_python_copy_face_msgs
+[2.732s] running egg_info
+[2.739s] [  1%] Built target face_msgs__rosidl_generator_type_description
+[2.740s] creating face_msgs.egg-info
+[2.740s] writing face_msgs.egg-info/PKG-INFO
+[2.740s] writing dependency_links to face_msgs.egg-info/dependency_links.txt
+[2.740s] writing top-level names to face_msgs.egg-info/top_level.txt
+[2.740s] writing manifest file 'face_msgs.egg-info/SOURCES.txt'
+[2.744s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.754s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.764s] reading manifest file 'face_msgs.egg-info/SOURCES.txt'
+[2.765s] writing manifest file 'face_msgs.egg-info/SOURCES.txt'
+[2.784s] [  5%] Built target ament_cmake_python_build_face_msgs_egg
+[3.005s] [  5%] Built target face_msgs__cpp
+[3.066s] [ 11%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_detections__functions.c.o[0m
+[3.066s] [ 11%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_detections__type_support.c.o[0m
+[3.066s] [ 11%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_detections__description.c.o[0m
+[3.067s] [ 12%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face__description.c.o[0m
+[3.106s] [ 14%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face__functions.c.o[0m
+[3.121s] [ 18%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face__type_support.c.o[0m
+[3.121s] [ 18%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__description.c.o[0m
+[3.130s] [ 20%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__functions.c.o[0m
+[3.146s] [ 22%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o[0m
+[3.167s] [ 24%] [32m[1mLinking C shared library libface_msgs__rosidl_generator_c.so[0m
+[3.197s] [ 24%] Built target face_msgs__rosidl_generator_c
+[3.203s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.204s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.204s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.204s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.401s] [ 33%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/face_msgs/msg/face_detections__type_support.cpp.o[0m
+[3.441s] [ 35%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/face_msgs/msg/detail/face_detections__type_support.cpp.o[0m
+[3.498s] [ 37%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/face_msgs/msg/detail/dds_fastrtps/face_detections__type_support.cpp.o[0m
+[3.505s] [ 38%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/face_msgs/msg/detail/face_detections__type_support_c.cpp.o[0m
+[3.667s] [ 40%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/face_msgs/msg/face__type_support.cpp.o[0m
+[3.721s] [ 42%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/face_msgs/msg/detail/face__type_support.cpp.o[0m
+[3.908s] [ 46%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/face_msgs/msg/detail/dds_fastrtps/face__type_support.cpp.o[0m
+[3.908s] [ 46%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/face_msgs/msg/face_embedding_array__type_support.cpp.o[0m
+[3.911s] [ 48%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/face_msgs/msg/detail/face__type_support_c.cpp.o[0m
+[4.005s] [ 50%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/face_msgs/msg/detail/face_embedding_array__type_support.cpp.o[0m
+[4.122s] [ 51%] [32m[1mLinking CXX shared library libface_msgs__rosidl_typesupport_cpp.so[0m
+[4.161s] [ 51%] Built target face_msgs__rosidl_typesupport_cpp
+[4.167s] [ 53%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/face_msgs/msg/detail/dds_fastrtps/face_embedding_array__type_support.cpp.o[0m
+[4.199s] [ 55%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/face_msgs/msg/detail/face_embedding_array__type_support_c.cpp.o[0m
+[4.214s] [ 57%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.295s] [ 59%] [32m[1mLinking CXX shared library libface_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.352s] [ 59%] Built target face_msgs__rosidl_typesupport_introspection_cpp
+[4.358s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.460s] [ 62%] [32m[1mLinking CXX shared library libface_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.472s] [ 64%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c.o[0m
+[4.476s] [ 66%] [32m[1mLinking CXX shared library libface_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.504s] [ 68%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c.o[0m
+[4.507s] [ 68%] Built target face_msgs__rosidl_typesupport_fastrtps_c
+[4.513s] [ 70%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o[0m
+[4.529s] [ 70%] Built target face_msgs__rosidl_typesupport_fastrtps_cpp
+[4.542s] [ 72%] [32m[1mLinking C shared library libface_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.559s] [ 77%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_msgs/msg/face_embedding_array__type_support.cpp.o[0m
+[4.559s] [ 77%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_msgs/msg/face_detections__type_support.cpp.o[0m
+[4.559s] [ 77%] [32mBuilding CXX object CMakeFiles/face_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_msgs/msg/face__type_support.cpp.o[0m
+[4.572s] [ 77%] Built target face_msgs__rosidl_typesupport_introspection_c
+[4.587s] [ 79%] [32m[1mLinking CXX shared library libface_msgs__rosidl_typesupport_c.so[0m
+[4.614s] [ 79%] Built target face_msgs__rosidl_typesupport_c
+[4.623s] [ 79%] Built target face_msgs
+[4.633s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.979s] [ 81%] Built target face_msgs__py
+[4.989s] [ 87%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_detections_s.c.o[0m
+[4.989s] [ 87%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_s.c.o[0m
+[4.989s] [ 87%] [32mBuilding C object CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o[0m
+[5.101s] [ 88%] [32m[1mLinking C shared library libface_msgs__rosidl_generator_py.so[0m
+[5.134s] [ 88%] Built target face_msgs__rosidl_generator_py
+[5.145s] [ 94%] [32mBuilding C object CMakeFiles/face_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.145s] [ 94%] [32mBuilding C object CMakeFiles/face_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.145s] [ 94%] [32mBuilding C object CMakeFiles/face_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.211s] [100%] [32m[1mLinking C shared module rosidl_generator_py/face_msgs/face_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.211s] [100%] [32m[1mLinking C shared module rosidl_generator_py/face_msgs/face_msgs_s__rosidl_typesupport_c.so[0m
+[5.211s] [100%] [32m[1mLinking C shared module rosidl_generator_py/face_msgs/face_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[5.233s] [100%] Built target face_msgs_s__rosidl_typesupport_c
+[5.233s] [100%] Built target face_msgs_s__rosidl_typesupport_fastrtps_c
+[5.233s] [100%] Built target face_msgs_s__rosidl_typesupport_introspection_c
+[5.240s] Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs -- -j4 -l4
+[5.245s] Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs
+[5.249s] -- Install configuration: ""
+[5.249s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/rosidl_interfaces/face_msgs
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceDetections.json
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/Face.json
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceEmbeddingArray.json
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_embedding_array.h
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.h
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.h
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.c
+[5.250s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__description.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__functions.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__functions.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__description.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__functions.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__functions.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__struct.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__description.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__struct.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__functions.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__functions.c
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__struct.h
+[5.251s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_detections.h
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face.h
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/library_path.sh
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/library_path.dsv
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_generator_c.so
+[5.252s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_generator_c.so" to ""
+[5.252s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[5.252s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.252s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_fastrtps_c.h
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_fastrtps_c.h
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_fastrtps_c.h
+[5.252s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_fastrtps_c.so
+[5.254s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.254s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[5.254s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[5.254s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.254s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[5.254s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.c
+[5.254s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_introspection_c.h
+[5.254s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.c
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.c
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_c.h
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_introspection_c.so
+[5.255s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_c.so
+[5.255s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_c.so" to ""
+[5.255s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[5.255s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_detections.hpp
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face.hpp
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.255s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[5.255s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__traits.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__traits.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__struct.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__struct.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__struct.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__builder.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__traits.hpp
+[5.258s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__builder.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__builder.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_embedding_array.hpp
+[5.259s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[5.259s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.259s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_fastrtps_cpp.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/dds_fastrtps
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_fastrtps_cpp.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.259s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.259s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[5.259s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[5.259s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.cpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.cpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.cpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_cpp.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_introspection_cpp.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_cpp.hpp
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_introspection_cpp.so
+[5.259s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_cpp.so
+[5.259s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_cpp.so" to ""
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/pythonpath.sh
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/pythonpath.dsv
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[5.259s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/_face_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/_face_msgs_s.ep.rosidl_typesupport_c.c
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_introspection_c.so
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_embedding_array.py
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_embedding_array_s.c
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_detections_s.c
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_s.c
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face.py
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/__init__.py
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_detections.py
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/__init__.py
+[5.260s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_c.so
+[5.284s] Listing '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs'...
+[5.284s] Compiling '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/__init__.py'...
+[5.284s] Listing '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg'...
+[5.284s] Compiling '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/__init__.py'...
+[5.284s] Compiling '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face.py'...
+[5.284s] Compiling '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_detections.py'...
+[5.284s] Compiling '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_embedding_array.py'...
+[5.292s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.292s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.293s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_introspection_c.so
+[5.293s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.293s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_c.so
+[5.293s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_c.so" to ""
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_generator_py.so
+[5.294s] -- Set non-toolchain portion of runtime path of "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_generator_py.so" to ""
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceDetections.idl
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/Face.idl
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceEmbeddingArray.idl
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceDetections.msg
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/Face.msg
+[5.294s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceEmbeddingArray.msg
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/package_run_dependencies/face_msgs
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/parent_prefix_path/face_msgs
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/ament_prefix_path.sh
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/ament_prefix_path.dsv
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/path.sh
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/path.dsv
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.bash
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.sh
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.zsh
+[5.295s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.dsv
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/package.dsv
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/packages/face_msgs
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_cExport.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cExport.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.296s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_cppExport.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cppExport.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_pyExport.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.297s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/rosidl_cmake-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgsConfig.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgsConfig-version.cmake
+[5.298s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/package.xml
+[5.300s] Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/yolo_face_recognition:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs

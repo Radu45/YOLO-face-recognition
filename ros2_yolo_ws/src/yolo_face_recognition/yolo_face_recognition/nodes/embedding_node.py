@@ -2,12 +2,12 @@ import rclpy
 from rclpy.node import Node
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
-import cv2
-from face_msgs.msg import FaceDetections
+from face_msgs.msg import FaceDetections,Face, FaceEmbeddingArray
 import torch
 from facenet_pytorch import InceptionResnetV1
 from torchvision import transforms
 from PIL import Image
+
 
 
 class Embedding_node(Node):
@@ -25,7 +25,7 @@ class Embedding_node(Node):
             10
         )
         
-        self.device = 'cudo' if torch.cude.is_available() else 'cpu'
+        self.device = 'cuda' if torch.cude.is_available() else 'cpu'
 
         self.model = InceptionResnetV1(
             pretrained='vggface2'
@@ -36,6 +36,8 @@ class Embedding_node(Node):
             transforms.ToTensor(),
             transforms.Normalize([0.5]*3, [0.5]*3)
         ])
+
+        self.publisher = self.create_publisher(FaceEmbeddingArray, '/face_embeddings', 10)
 
         self.get_logger().info("Image subscriber started")
     
@@ -74,6 +76,44 @@ class Embedding_node(Node):
             embeddings.append(embedding.squeeze(0).detach().cpu())
 
             self.get_logger().info(f"Embedding generated: {embedding.shape}")
+        
+        embeddings_det = FaceEmbeddingArray()
+        embeddings_det.header = msg.header
+        
+        for det, emb in zip(detections, embeddings):
+
+            face_det_em = Face()
+            face_det_em.detection = det
+            face_det_em.embedding = emb.tolist()
+            embeddings_det.faces.append(face_det_em)
+
+
+        self.publisher.publish(embeddings_det)
+
+    
+
+def main(args=None):
+
+    rclpy.init(args=args)
+    node = Embedding_node()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
+
+
+
+        
+
 
 
  

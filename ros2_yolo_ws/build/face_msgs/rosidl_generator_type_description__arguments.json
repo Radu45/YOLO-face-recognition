@@ -3,7 +3,8 @@
   "output_dir": "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_type_description/face_msgs",
   "idl_tuples": [
     "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/FaceDetections.idl",
-    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/Face.idl"
+    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/Face.idl",
+    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/FaceEmbeddingArray.idl"
   ],
   "include_paths": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs",

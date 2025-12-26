@@ -8,8 +8,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/face_msgs/msg/detail/face_detections__struct.hpp"
   "rosidl_generator_cpp/face_msgs/msg/detail/face_detections__traits.hpp"
   "rosidl_generator_cpp/face_msgs/msg/detail/face_detections__type_support.hpp"
+  "rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__builder.hpp"
+  "rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__struct.hpp"
+  "rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__traits.hpp"
+  "rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__type_support.hpp"
   "rosidl_generator_cpp/face_msgs/msg/face.hpp"
   "rosidl_generator_cpp/face_msgs/msg/face_detections.hpp"
+  "rosidl_generator_cpp/face_msgs/msg/face_embedding_array.hpp"
   "rosidl_generator_cpp/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp"
 )
 

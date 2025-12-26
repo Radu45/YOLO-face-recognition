@@ -97,16 +97,32 @@ CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_s.c -o CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_s.c.s
 
+CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o: CMakeFiles/face_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o: rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c
+CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o: CMakeFiles/face_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o -MF CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o.d -o CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o -c /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c
+
+CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c > CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.i
+
+CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c -o CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.s
+
 # Object files for target face_msgs__rosidl_generator_py
 face_msgs__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_detections_s.c.o" \
-"CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_s.c.o"
+"CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_s.c.o" \
+"CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o"
 
 # External object files for target face_msgs__rosidl_generator_py
 face_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 libface_msgs__rosidl_generator_py.so: CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_detections_s.c.o
 libface_msgs__rosidl_generator_py.so: CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_s.c.o
+libface_msgs__rosidl_generator_py.so: CMakeFiles/face_msgs__rosidl_generator_py.dir/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c.o
 libface_msgs__rosidl_generator_py.so: CMakeFiles/face_msgs__rosidl_generator_py.dir/build.make
 libface_msgs__rosidl_generator_py.so: libface_msgs__rosidl_typesupport_c.so
 libface_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
@@ -169,7 +185,7 @@ libface_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__
 libface_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libface_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libface_msgs__rosidl_generator_py.so: CMakeFiles/face_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libface_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libface_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/face_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

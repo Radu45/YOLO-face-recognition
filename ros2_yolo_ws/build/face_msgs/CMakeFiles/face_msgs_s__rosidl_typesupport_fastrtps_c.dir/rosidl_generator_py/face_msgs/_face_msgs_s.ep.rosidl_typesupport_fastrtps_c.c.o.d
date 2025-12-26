@@ -264,4 +264,7 @@ CMakeFiles/face_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/fa
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face_detections__functions.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__type_support.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__struct.h \
- /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__functions.h
+ /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__functions.h \
+ /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__type_support.h \
+ /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__struct.h \
+ /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__functions.h

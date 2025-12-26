@@ -11,6 +11,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_detections__functions.c.o.d"
   "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_detections__type_support.c.o"
   "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_detections__type_support.c.o.d"
+  "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__description.c.o"
+  "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__description.c.o.d"
+  "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__functions.c.o"
+  "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__functions.c.o.d"
+  "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o"
+  "CMakeFiles/face_msgs__rosidl_generator_c.dir/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o.d"
   "libface_msgs__rosidl_generator_c.pdb"
   "libface_msgs__rosidl_generator_c.so"
   "rosidl_generator_c/face_msgs/msg/detail/face__description.c"
@@ -25,8 +31,15 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/face_msgs/msg/detail/face_detections__struct.h"
   "rosidl_generator_c/face_msgs/msg/detail/face_detections__type_support.c"
   "rosidl_generator_c/face_msgs/msg/detail/face_detections__type_support.h"
+  "rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__description.c"
+  "rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__functions.c"
+  "rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__functions.h"
+  "rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__struct.h"
+  "rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__type_support.c"
+  "rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__type_support.h"
   "rosidl_generator_c/face_msgs/msg/face.h"
   "rosidl_generator_c/face_msgs/msg/face_detections.h"
+  "rosidl_generator_c/face_msgs/msg/face_embedding_array.h"
 )
 
 # Per-language clean rules from dependency scanning.

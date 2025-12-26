@@ -76,6 +76,11 @@ CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face__build
 CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face__struct.hpp
 CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face__traits.hpp
 CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face__type_support.hpp
+CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/face_embedding_array.hpp
+CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__builder.hpp
+CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__struct.hpp
+CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__traits.hpp
+CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__type_support.hpp
 CMakeFiles/face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -99,6 +104,7 @@ rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: /opt/ros/jazzy/share/ros
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: rosidl_adapter/face_msgs/msg/FaceDetections.idl
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: rosidl_adapter/face_msgs/msg/Face.idl
+rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: rosidl_adapter/face_msgs/msg/FaceEmbeddingArray.idl
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/face_msgs/msg/face_detections.hpp: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -238,6 +244,21 @@ rosidl_generator_cpp/face_msgs/msg/detail/face__traits.hpp: rosidl_generator_cpp
 rosidl_generator_cpp/face_msgs/msg/detail/face__type_support.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/detail/face__type_support.hpp
 
+rosidl_generator_cpp/face_msgs/msg/face_embedding_array.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/face_embedding_array.hpp
+
+rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__builder.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__builder.hpp
+
+rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__struct.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__struct.hpp
+
+rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__traits.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__traits.hpp
+
+rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__type_support.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__type_support.hpp
+
 rosidl_generator_cpp/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -250,8 +271,13 @@ face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_detections__build
 face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_detections__struct.hpp
 face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_detections__traits.hpp
 face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_detections__type_support.hpp
+face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__builder.hpp
+face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__struct.hpp
+face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__traits.hpp
+face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/detail/face_embedding_array__type_support.hpp
 face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/face.hpp
 face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/face_detections.hpp
+face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/face_embedding_array.hpp
 face_msgs__cpp: rosidl_generator_cpp/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 face_msgs__cpp: CMakeFiles/face_msgs__cpp.dir/build.make
 .PHONY : face_msgs__cpp

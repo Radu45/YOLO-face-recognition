@@ -79,6 +79,7 @@ rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: rosidl_adapter/face_msgs/msg/FaceDetections.idl
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: rosidl_adapter/face_msgs/msg/Face.idl
+rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: rosidl_adapter/face_msgs/msg/FaceEmbeddingArray.idl
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -194,11 +195,17 @@ rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c
 
 rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c
+
+rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c
 
 CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c.o: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c.o: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c
@@ -228,16 +235,32 @@ CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c -o CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c.s
 
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o -MF CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o.d -o CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o -c /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c
+
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c > CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.i
+
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c -o CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.s
+
 # Object files for target face_msgs__rosidl_typesupport_introspection_c
 face_msgs__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c.o" \
-"CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c.o"
+"CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c.o" \
+"CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o"
 
 # External object files for target face_msgs__rosidl_typesupport_introspection_c
 face_msgs__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libface_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c.o
 libface_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c.o
+libface_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c.o
 libface_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/build.make
 libface_msgs__rosidl_typesupport_introspection_c.so: libface_msgs__rosidl_generator_c.so
 libface_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -256,7 +279,7 @@ libface_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/libbuilt
 libface_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libface_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librcutils.so
 libface_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libface_msgs__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libface_msgs__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -271,6 +294,8 @@ CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_type
 CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face__type_support.c
 CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
 CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_detections__type_support.c
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_c.h
+CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/face_msgs/msg/detail/face_embedding_array__type_support.c
 	cd /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/depend
 

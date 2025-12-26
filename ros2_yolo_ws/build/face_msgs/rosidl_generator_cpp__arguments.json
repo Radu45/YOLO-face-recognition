@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/FaceDetections.idl",
-    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/Face.idl"
+    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/Face.idl",
+    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/FaceEmbeddingArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -139,6 +140,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs/msg/FaceDetections.idl",
     "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs/msg/Face.idl",
+    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs/msg/FaceEmbeddingArray.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",
@@ -251,6 +253,7 @@
   ],
   "type_description_tuples": [
     "msg/FaceDetections.idl:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_type_description/face_msgs/msg/FaceDetections.json",
-    "msg/Face.idl:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_type_description/face_msgs/msg/Face.json"
+    "msg/Face.idl:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_type_description/face_msgs/msg/Face.json",
+    "msg/FaceEmbeddingArray.idl:/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_type_description/face_msgs/msg/FaceEmbeddingArray.json"
   ]
 }

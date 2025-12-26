@@ -1,2 +1,3 @@
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/FaceDetections.idl
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/Face.idl
+/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_adapter/face_msgs:msg/FaceEmbeddingArray.idl

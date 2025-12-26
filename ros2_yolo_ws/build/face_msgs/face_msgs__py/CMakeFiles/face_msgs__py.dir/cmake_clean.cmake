@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face.py"
   "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_detections.py"
   "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_detections_s.c"
+  "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_embedding_array.py"
+  "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c"
   "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_py/face_msgs/msg/_face_s.c"
   "CMakeFiles/face_msgs__py"
 )

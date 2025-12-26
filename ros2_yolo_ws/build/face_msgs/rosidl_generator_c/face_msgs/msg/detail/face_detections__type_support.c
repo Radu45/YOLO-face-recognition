@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "face_msgs/msg/detail/face_detections__struct.h"
-#include "face_msgs/msg/detail/face_detections__functions.h"
 #include "face_msgs/msg/detail/face_detections__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "face_msgs/msg/detail/face_detections__functions.h"
+#include "face_msgs/msg/detail/face_detections__struct.h"
 
 #ifdef __cplusplus
 extern "C"

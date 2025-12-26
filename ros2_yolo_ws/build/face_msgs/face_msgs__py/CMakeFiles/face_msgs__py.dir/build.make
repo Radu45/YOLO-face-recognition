@@ -71,9 +71,11 @@ include /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msg
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_c.c
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_detections.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/_face.py
+/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_embedding_array.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/__init__.py
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_detections_s.c
 /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_s.c
+/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c
 
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -90,6 +92,7 @@ rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/face_msgs/msg/FaceDetections.idl
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/face_msgs/msg/Face.idl
+rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/face_msgs/msg/FaceEmbeddingArray.idl
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -214,6 +217,9 @@ rosidl_generator_py/face_msgs/msg/_face_detections.py: rosidl_generator_py/face_
 rosidl_generator_py/face_msgs/msg/_face.py: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/face_msgs/msg/_face.py
 
+rosidl_generator_py/face_msgs/msg/_face_embedding_array.py: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/face_msgs/msg/_face_embedding_array.py
+
 rosidl_generator_py/face_msgs/msg/__init__.py: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/face_msgs/msg/__init__.py
 
@@ -223,6 +229,9 @@ rosidl_generator_py/face_msgs/msg/_face_detections_s.c: rosidl_generator_py/face
 rosidl_generator_py/face_msgs/msg/_face_s.c: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/face_msgs/msg/_face_s.c
 
+rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c
+
 face_msgs__py: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py
 face_msgs__py: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_c.c
 face_msgs__py: rosidl_generator_py/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -231,6 +240,8 @@ face_msgs__py: rosidl_generator_py/face_msgs/msg/__init__.py
 face_msgs__py: rosidl_generator_py/face_msgs/msg/_face.py
 face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_detections.py
 face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_detections_s.c
+face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_embedding_array.py
+face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_embedding_array_s.c
 face_msgs__py: rosidl_generator_py/face_msgs/msg/_face_s.c
 face_msgs__py: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py/CMakeFiles/face_msgs__py.dir/build.make
 .PHONY : face_msgs__py

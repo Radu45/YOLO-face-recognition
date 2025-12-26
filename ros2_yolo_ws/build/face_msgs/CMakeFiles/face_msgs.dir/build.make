@@ -68,6 +68,7 @@ include CMakeFiles/face_msgs.dir/progress.make
 
 CMakeFiles/face_msgs: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs/msg/FaceDetections.msg
 CMakeFiles/face_msgs: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs/msg/Face.msg
+CMakeFiles/face_msgs: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs/msg/FaceEmbeddingArray.msg
 CMakeFiles/face_msgs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/face_msgs: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/face_msgs: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
