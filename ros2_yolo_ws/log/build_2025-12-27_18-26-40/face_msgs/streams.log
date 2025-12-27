@@ -1,0 +1,193 @@
+[0.011s] Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --build /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs -- -j4 -l4
+[0.155s] [  1%] Built target face_msgs__rosidl_generator_type_description
+[0.177s] [  1%] Built target ament_cmake_python_copy_face_msgs
+[0.183s] [  3%] Built target face_msgs__cpp
+[0.189s] [ 24%] Built target face_msgs__rosidl_generator_c
+[0.244s] [ 33%] Built target face_msgs__rosidl_typesupport_cpp
+[0.246s] [ 42%] Built target face_msgs__rosidl_typesupport_fastrtps_c
+[0.251s] [ 51%] Built target face_msgs__rosidl_typesupport_introspection_c
+[0.272s] [ 61%] Built target face_msgs__rosidl_typesupport_fastrtps_cpp
+[0.273s] [ 70%] Built target face_msgs__rosidl_typesupport_c
+[0.284s] [ 79%] Built target face_msgs__rosidl_typesupport_introspection_cpp
+[0.337s] [ 79%] Built target face_msgs
+[0.358s] [ 81%] Built target face_msgs__py
+[0.399s] [ 88%] Built target face_msgs__rosidl_generator_py
+[0.457s] [ 92%] Built target face_msgs_s__rosidl_typesupport_fastrtps_c
+[0.459s] [ 96%] Built target face_msgs_s__rosidl_typesupport_introspection_c
+[0.460s] [100%] Built target face_msgs_s__rosidl_typesupport_c
+[0.493s] running egg_info
+[0.503s] writing face_msgs.egg-info/PKG-INFO
+[0.503s] writing dependency_links to face_msgs.egg-info/dependency_links.txt
+[0.503s] writing top-level names to face_msgs.egg-info/top_level.txt
+[0.531s] reading manifest file 'face_msgs.egg-info/SOURCES.txt'
+[0.532s] writing manifest file 'face_msgs.egg-info/SOURCES.txt'
+[0.558s] [100%] Built target ament_cmake_python_build_face_msgs_egg
+[0.566s] Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --build /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs -- -j4 -l4
+[0.573s] Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --install /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs
+[0.579s] -- Install configuration: ""
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/rosidl_interfaces/face_msgs
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceDetections.json
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/Face.json
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceEmbeddingArray.json
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_embedding_array.h
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.h
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.h
+[0.579s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__description.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__functions.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__functions.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__description.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__functions.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__functions.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__struct.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__description.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__struct.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__functions.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__functions.c
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__struct.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_detections.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face.h
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/library_path.sh
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/library_path.dsv
+[0.580s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_generator_c.so
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_fastrtps_c.h
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_fastrtps_c.h
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_fastrtps_c.h
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_fastrtps_c.so
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.c
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_introspection_c.h
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.c
+[0.581s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.c
+[0.582s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_c.h
+[0.582s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_c.h
+[0.582s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_introspection_c.so
+[0.582s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_c.so
+[0.582s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[0.582s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_detections.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__traits.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__traits.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__struct.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__struct.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__struct.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__builder.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__traits.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__builder.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__builder.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/face_embedding_array.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_fastrtps_cpp.hpp
+[0.583s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/dds_fastrtps
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_fastrtps_cpp.hpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__type_support.cpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__type_support.cpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__type_support.cpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_embedding_array__rosidl_typesupport_introspection_cpp.hpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face__rosidl_typesupport_introspection_cpp.hpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/include/face_msgs/face_msgs/msg/detail/face_detections__rosidl_typesupport_introspection_cpp.hpp
+[0.584s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_introspection_cpp.so
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_typesupport_cpp.so
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/pythonpath.sh
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/pythonpath.dsv
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info
+[0.585s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.585s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.585s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[0.585s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/_face_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/_face_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/_face_msgs_s.ep.rosidl_typesupport_c.c
+[0.585s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_introspection_c.so
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_embedding_array.py
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_embedding_array_s.c
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_detections_s.c
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_s.c
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face.py
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/__init__.py
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg/_face_detections.py
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/__init__.py
+[0.586s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_c.so
+[0.609s] Listing '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs'...
+[0.609s] Listing '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/msg'...
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_introspection_c.so
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/python3.12/site-packages/face_msgs/face_msgs_s__rosidl_typesupport_c.so
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/lib/libface_msgs__rosidl_generator_py.so
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceDetections.idl
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/Face.idl
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceEmbeddingArray.idl
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceDetections.msg
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/Face.msg
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/msg/FaceEmbeddingArray.msg
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/package_run_dependencies/face_msgs
+[0.619s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/parent_prefix_path/face_msgs
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/ament_prefix_path.sh
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/ament_prefix_path.dsv
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/path.sh
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/environment/path.dsv
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.bash
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.sh
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.zsh
+[0.620s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/local_setup.dsv
+[0.620s] -- Installing: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/package.dsv
+[0.621s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/ament_index/resource_index/packages/face_msgs
+[0.622s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_cExport.cmake
+[0.622s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.622s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.622s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.623s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.623s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.623s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cExport.cmake
+[0.623s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.623s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_cppExport.cmake
+[0.624s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.624s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.624s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.624s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cppExport.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_pyExport.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/export_face_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/rosidl_cmake-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgsConfig.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/cmake/face_msgsConfig-version.cmake
+[0.625s] -- Up-to-date: /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/install/face_msgs/share/face_msgs/package.xml
+[0.628s] Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --install /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs

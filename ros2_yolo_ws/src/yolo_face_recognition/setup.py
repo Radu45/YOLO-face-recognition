@@ -25,6 +25,11 @@ setup(
         # model files
         ('share/' + package_name + '/models',
             ['yolo_face_recognition/models/yolov12n-face.pt']),
+        
+        ('share/' + package_name + '/config',
+            ['yolo_face_recognition/config/faces.yaml'])
+        
+
     ],
     install_requires=[
         'setuptools',
@@ -42,6 +47,9 @@ setup(
         'console_scripts': [
             'camera_node = yolo_face_recognition.nodes.camera_publisher_node:main',
             'detection_node = yolo_face_recognition.nodes.detector_node:main',
+            'embedding_node = yolo_face_recognition.nodes.embedding_node:main',
+            'tracking_node = yolo_face_recognition.nodes.tracking_node:main'
+
         ],
     },
 )

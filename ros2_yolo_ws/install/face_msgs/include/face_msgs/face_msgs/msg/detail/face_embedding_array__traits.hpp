@@ -20,6 +20,8 @@
 // Include directives for member types
 // Member 'header'
 #include "std_msgs/msg/detail/header__traits.hpp"
+// Member 'image'
+#include "sensor_msgs/msg/detail/image__traits.hpp"
 // Member 'faces'
 #include "face_msgs/msg/detail/face__traits.hpp"
 
@@ -38,6 +40,13 @@ inline void to_flow_style_yaml(
   {
     out << "header: ";
     to_flow_style_yaml(msg.header, out);
+    out << ", ";
+  }
+
+  // member: image
+  {
+    out << "image: ";
+    to_flow_style_yaml(msg.image, out);
     out << ", ";
   }
 
@@ -71,6 +80,15 @@ inline void to_block_style_yaml(
     }
     out << "header:\n";
     to_block_style_yaml(msg.header, out, indentation + 2);
+  }
+
+  // member: image
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "image:\n";
+    to_block_style_yaml(msg.image, out, indentation + 2);
   }
 
   // member: faces

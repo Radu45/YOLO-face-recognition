@@ -1,0 +1,4 @@
+source;share/face_msgs/local_setup.bash
+source;share/face_msgs/local_setup.dsv
+source;share/face_msgs/local_setup.sh
+source;share/face_msgs/local_setup.zsh

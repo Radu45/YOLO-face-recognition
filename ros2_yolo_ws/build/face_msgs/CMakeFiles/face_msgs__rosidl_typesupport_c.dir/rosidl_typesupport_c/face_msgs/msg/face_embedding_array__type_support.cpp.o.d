@@ -43,6 +43,7 @@ CMakeFiles/face_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_msgs/ms
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__struct.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__struct.h \
  /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.h \
  /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.h \

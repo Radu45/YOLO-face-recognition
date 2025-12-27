@@ -1,0 +1,6 @@
+msg/Face.idl
+msg/Face.msg
+msg/FaceDetections.idl
+msg/FaceDetections.msg
+msg/FaceEmbeddingArray.idl
+msg/FaceEmbeddingArray.msg

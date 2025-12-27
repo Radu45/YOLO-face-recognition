@@ -12,7 +12,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FaceDetections.msg"
   "msg/Face.msg"
   "msg/FaceEmbeddingArray.msg"
-  DEPENDENCIES std_msgs sensor_msgs vision_msgs
+  DEPENDENCIES std_msgs sensor_msgs vision_msgs geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)

@@ -14,6 +14,8 @@
 // Include directives for member types
 // Member `header`
 #include "std_msgs/msg/detail/header__functions.h"
+// Member `image`
+#include "sensor_msgs/msg/detail/image__functions.h"
 // Member `faces`
 #include "face_msgs/msg/detail/face__functions.h"
 
@@ -25,6 +27,11 @@ face_msgs__msg__FaceEmbeddingArray__init(face_msgs__msg__FaceEmbeddingArray * ms
   }
   // header
   if (!std_msgs__msg__Header__init(&msg->header)) {
+    face_msgs__msg__FaceEmbeddingArray__fini(msg);
+    return false;
+  }
+  // image
+  if (!sensor_msgs__msg__Image__init(&msg->image)) {
     face_msgs__msg__FaceEmbeddingArray__fini(msg);
     return false;
   }
@@ -44,6 +51,8 @@ face_msgs__msg__FaceEmbeddingArray__fini(face_msgs__msg__FaceEmbeddingArray * ms
   }
   // header
   std_msgs__msg__Header__fini(&msg->header);
+  // image
+  sensor_msgs__msg__Image__fini(&msg->image);
   // faces
   face_msgs__msg__Face__Sequence__fini(&msg->faces);
 }
@@ -57,6 +66,12 @@ face_msgs__msg__FaceEmbeddingArray__are_equal(const face_msgs__msg__FaceEmbeddin
   // header
   if (!std_msgs__msg__Header__are_equal(
       &(lhs->header), &(rhs->header)))
+  {
+    return false;
+  }
+  // image
+  if (!sensor_msgs__msg__Image__are_equal(
+      &(lhs->image), &(rhs->image)))
   {
     return false;
   }
@@ -80,6 +95,12 @@ face_msgs__msg__FaceEmbeddingArray__copy(
   // header
   if (!std_msgs__msg__Header__copy(
       &(input->header), &(output->header)))
+  {
+    return false;
+  }
+  // image
+  if (!sensor_msgs__msg__Image__copy(
+      &(input->image), &(output->image)))
   {
     return false;
   }

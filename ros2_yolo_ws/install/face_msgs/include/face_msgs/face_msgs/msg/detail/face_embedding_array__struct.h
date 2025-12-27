@@ -22,6 +22,8 @@ extern "C"
 // Include directives for member types
 // Member 'header'
 #include "std_msgs/msg/detail/header__struct.h"
+// Member 'image'
+#include "sensor_msgs/msg/detail/image__struct.h"
 // Member 'faces'
 #include "face_msgs/msg/detail/face__struct.h"
 
@@ -29,6 +31,7 @@ extern "C"
 typedef struct face_msgs__msg__FaceEmbeddingArray
 {
   std_msgs__msg__Header header;
+  sensor_msgs__msg__Image image;
   face_msgs__msg__Face__Sequence faces;
 } face_msgs__msg__FaceEmbeddingArray;
 

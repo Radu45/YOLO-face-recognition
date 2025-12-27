@@ -3,12 +3,15 @@
 // generated code does not contain a copyright notice
 
 #include "face_msgs/msg/Face.idl"
+#include "sensor_msgs/msg/Image.idl"
 #include "std_msgs/msg/Header.idl"
 
 module face_msgs {
   module msg {
     struct FaceEmbeddingArray {
       std_msgs::msg::Header header;
+
+      sensor_msgs::msg::Image image;
 
       sequence<face_msgs::msg::Face> faces;
     };

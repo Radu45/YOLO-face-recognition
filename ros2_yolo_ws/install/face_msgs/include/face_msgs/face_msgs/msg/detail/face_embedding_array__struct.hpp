@@ -21,6 +21,8 @@
 // Include directives for member types
 // Member 'header'
 #include "std_msgs/msg/detail/header__struct.hpp"
+// Member 'image'
+#include "sensor_msgs/msg/detail/image__struct.hpp"
 // Member 'faces'
 #include "face_msgs/msg/detail/face__struct.hpp"
 
@@ -43,13 +45,15 @@ struct FaceEmbeddingArray_
   using Type = FaceEmbeddingArray_<ContainerAllocator>;
 
   explicit FaceEmbeddingArray_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_init)
+  : header(_init),
+    image(_init)
   {
     (void)_init;
   }
 
   explicit FaceEmbeddingArray_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_alloc, _init)
+  : header(_alloc, _init),
+    image(_alloc, _init)
   {
     (void)_init;
   }
@@ -58,6 +62,9 @@ struct FaceEmbeddingArray_
   using _header_type =
     std_msgs::msg::Header_<ContainerAllocator>;
   _header_type header;
+  using _image_type =
+    sensor_msgs::msg::Image_<ContainerAllocator>;
+  _image_type image;
   using _faces_type =
     std::vector<face_msgs::msg::Face_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<face_msgs::msg::Face_<ContainerAllocator>>>;
   _faces_type faces;
@@ -67,6 +74,12 @@ struct FaceEmbeddingArray_
     const std_msgs::msg::Header_<ContainerAllocator> & _arg)
   {
     this->header = _arg;
+    return *this;
+  }
+  Type & set__image(
+    const sensor_msgs::msg::Image_<ContainerAllocator> & _arg)
+  {
+    this->image = _arg;
     return *this;
   }
   Type & set__faces(
@@ -119,6 +132,9 @@ struct FaceEmbeddingArray_
   bool operator==(const FaceEmbeddingArray_ & other) const
   {
     if (this->header != other.header) {
+      return false;
+    }
+    if (this->image != other.image) {
       return false;
     }
     if (this->faces != other.faces) {

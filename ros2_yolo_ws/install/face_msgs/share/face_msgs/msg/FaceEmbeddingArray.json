@@ -14,6 +14,16 @@
           "default_value": ""
         },
         {
+          "name": "image",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "sensor_msgs/msg/Image"
+          },
+          "default_value": ""
+        },
+        {
           "name": "faces",
           "type": {
             "type_id": 145,
@@ -203,6 +213,81 @@
               "nested_type_name": ""
             },
             "default_value": "1.0"
+          }
+        ]
+      },
+      {
+        "type_name": "sensor_msgs/msg/Image",
+        "fields": [
+          {
+            "name": "header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Header"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "height",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "width",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "encoding",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_bigendian",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "step",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "data",
+            "type": {
+              "type_id": 147,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
           }
         ]
       },
@@ -416,7 +501,7 @@
   "type_hashes": [
     {
       "type_name": "face_msgs/msg/FaceEmbeddingArray",
-      "hash_string": "RIHS01_695bcba877c79d55df719669cec9c53280e29bb48ca2a479db85206dd4e7d965"
+      "hash_string": "RIHS01_ebc972643079cdb60e4da839e59a806c9bb9b6ec45ee9e3d079bace6763fea41"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -441,6 +526,10 @@
     {
       "type_name": "geometry_msgs/msg/Quaternion",
       "hash_string": "RIHS01_8a765f66778c8ff7c8ab94afcc590a2ed5325a1d9a076ffff38fbce36f458684"
+    },
+    {
+      "type_name": "sensor_msgs/msg/Image",
+      "hash_string": "RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47"
     },
     {
       "type_name": "std_msgs/msg/Header",

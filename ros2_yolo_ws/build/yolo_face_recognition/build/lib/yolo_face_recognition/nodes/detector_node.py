@@ -9,6 +9,8 @@ from ament_index_python.packages import get_package_share_directory
 from vision_msgs.msg import Detection2D, Detection2DArray
 from face_msgs.msg import FaceDetections
 from pathlib import Path
+from geometry_msgs.msg import Pose2D
+
 
 
 class Detection(Node):
@@ -48,8 +50,8 @@ class Detection(Node):
                     x1,y1,x2,y2 = box.xyxy[0]
                     x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                     h, w = y2-y1,x2-x1
-                    face_detected.bbox.center.x = (x1 + x2) /2.0
-                    face_detected.bbox.center.y = (y1 + y2) /2.0
+                    face_detected.bbox.center.position.x = (x1 + x2) /2.0
+                    face_detected.bbox.center.position.y = (y1 + y2) /2.0
                     face_detected.bbox.size_x = float(w)
                     face_detected.bbox.size_y = float(h)
                     detection_faces.detections.append(face_detected)
@@ -59,7 +61,7 @@ class Detection(Node):
             out_msg = FaceDetections()
             out_msg.header = msg.header
             # converting frame to msg format to be sent over the topic
-            out_msg.image = self.bridge.cv2_to_imgmsg(frame,desired_encoding='rgb8')
+            out_msg.image = self.bridge.cv2_to_imgmsg(frame,encoding='rgb8')
             out_msg.detections = detection_faces
             # publishing the image 
             self.publisher.publish(out_msg)

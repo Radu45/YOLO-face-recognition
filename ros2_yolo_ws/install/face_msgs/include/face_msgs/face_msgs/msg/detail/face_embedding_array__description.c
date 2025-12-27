@@ -11,10 +11,10 @@ face_msgs__msg__FaceEmbeddingArray__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x69, 0x5b, 0xcb, 0xa8, 0x77, 0xc7, 0x9d, 0x55,
-      0xdf, 0x71, 0x96, 0x69, 0xce, 0xc9, 0xc5, 0x32,
-      0x80, 0xe2, 0x9b, 0xb4, 0x8c, 0xa2, 0xa4, 0x79,
-      0xdb, 0x85, 0x20, 0x6d, 0xd4, 0xe7, 0xd9, 0x65,
+      0xeb, 0xc9, 0x72, 0x64, 0x30, 0x79, 0xcd, 0xb6,
+      0x0e, 0x4d, 0xa8, 0x39, 0xe5, 0x9a, 0x80, 0x6c,
+      0x9b, 0xb9, 0xb6, 0xec, 0x45, 0xee, 0x9e, 0x3d,
+      0x07, 0x9b, 0xac, 0xe6, 0x76, 0x3f, 0xea, 0x41,
     }};
   return &hash;
 }
@@ -23,18 +23,19 @@ face_msgs__msg__FaceEmbeddingArray__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "geometry_msgs/msg/detail/point__functions.h"
-#include "std_msgs/msg/detail/header__functions.h"
-#include "geometry_msgs/msg/detail/pose__functions.h"
-#include "vision_msgs/msg/detail/detection2_d__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
-#include "vision_msgs/msg/detail/object_hypothesis_with_pose__functions.h"
-#include "face_msgs/msg/detail/face__functions.h"
-#include "vision_msgs/msg/detail/object_hypothesis__functions.h"
-#include "vision_msgs/msg/detail/bounding_box2_d__functions.h"
-#include "geometry_msgs/msg/detail/pose_with_covariance__functions.h"
+#include "sensor_msgs/msg/detail/image__functions.h"
 #include "geometry_msgs/msg/detail/quaternion__functions.h"
 #include "vision_msgs/msg/detail/point2_d__functions.h"
+#include "vision_msgs/msg/detail/detection2_d__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "geometry_msgs/msg/detail/pose__functions.h"
+#include "face_msgs/msg/detail/face__functions.h"
+#include "vision_msgs/msg/detail/bounding_box2_d__functions.h"
+#include "vision_msgs/msg/detail/object_hypothesis__functions.h"
+#include "vision_msgs/msg/detail/object_hypothesis_with_pose__functions.h"
+#include "geometry_msgs/msg/detail/point__functions.h"
+#include "std_msgs/msg/detail/header__functions.h"
+#include "geometry_msgs/msg/detail/pose_with_covariance__functions.h"
 #include "vision_msgs/msg/detail/pose2_d__functions.h"
 
 // Hashes for external referenced types
@@ -74,6 +75,12 @@ static const rosidl_type_hash_t geometry_msgs__msg__Quaternion__EXPECTED_HASH = 
     0xc8, 0xab, 0x94, 0xaf, 0xcc, 0x59, 0x0a, 0x2e,
     0xd5, 0x32, 0x5a, 0x1d, 0x9a, 0x07, 0x6f, 0xff,
     0xf3, 0x8f, 0xbc, 0xe3, 0x6f, 0x45, 0x86, 0x84,
+  }};
+static const rosidl_type_hash_t sensor_msgs__msg__Image__EXPECTED_HASH = {1, {
+    0xd3, 0x1d, 0x41, 0xa9, 0xa4, 0xc4, 0xbc, 0x8e,
+    0xae, 0x9b, 0xe7, 0x57, 0xb0, 0xbe, 0xed, 0x30,
+    0x65, 0x64, 0xf7, 0x52, 0x6c, 0x88, 0xea, 0x6a,
+    0x45, 0x88, 0xfb, 0x95, 0x82, 0x52, 0x7d, 0x47,
   }};
 static const rosidl_type_hash_t std_msgs__msg__Header__EXPECTED_HASH = {1, {
     0xf4, 0x9f, 0xb3, 0xae, 0x2c, 0xf0, 0x70, 0xf7,
@@ -126,6 +133,7 @@ static char geometry_msgs__msg__Point__TYPE_NAME[] = "geometry_msgs/msg/Point";
 static char geometry_msgs__msg__Pose__TYPE_NAME[] = "geometry_msgs/msg/Pose";
 static char geometry_msgs__msg__PoseWithCovariance__TYPE_NAME[] = "geometry_msgs/msg/PoseWithCovariance";
 static char geometry_msgs__msg__Quaternion__TYPE_NAME[] = "geometry_msgs/msg/Quaternion";
+static char sensor_msgs__msg__Image__TYPE_NAME[] = "sensor_msgs/msg/Image";
 static char std_msgs__msg__Header__TYPE_NAME[] = "std_msgs/msg/Header";
 static char vision_msgs__msg__BoundingBox2D__TYPE_NAME[] = "vision_msgs/msg/BoundingBox2D";
 static char vision_msgs__msg__Detection2D__TYPE_NAME[] = "vision_msgs/msg/Detection2D";
@@ -136,6 +144,7 @@ static char vision_msgs__msg__Pose2D__TYPE_NAME[] = "vision_msgs/msg/Pose2D";
 
 // Define type names, field names, and default values
 static char face_msgs__msg__FaceEmbeddingArray__FIELD_NAME__header[] = "header";
+static char face_msgs__msg__FaceEmbeddingArray__FIELD_NAME__image[] = "image";
 static char face_msgs__msg__FaceEmbeddingArray__FIELD_NAME__faces[] = "faces";
 
 static rosidl_runtime_c__type_description__Field face_msgs__msg__FaceEmbeddingArray__FIELDS[] = {
@@ -146,6 +155,16 @@ static rosidl_runtime_c__type_description__Field face_msgs__msg__FaceEmbeddingAr
       0,
       0,
       {std_msgs__msg__Header__TYPE_NAME, 19, 19},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {face_msgs__msg__FaceEmbeddingArray__FIELD_NAME__image, 5, 5},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_NESTED_TYPE,
+      0,
+      0,
+      {sensor_msgs__msg__Image__TYPE_NAME, 21, 21},
     },
     {NULL, 0, 0},
   },
@@ -187,6 +206,10 @@ static rosidl_runtime_c__type_description__IndividualTypeDescription face_msgs__
     {NULL, 0, 0},
   },
   {
+    {sensor_msgs__msg__Image__TYPE_NAME, 21, 21},
+    {NULL, 0, 0},
+  },
+  {
     {std_msgs__msg__Header__TYPE_NAME, 19, 19},
     {NULL, 0, 0},
   },
@@ -225,9 +248,9 @@ face_msgs__msg__FaceEmbeddingArray__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {face_msgs__msg__FaceEmbeddingArray__TYPE_NAME, 32, 32},
-      {face_msgs__msg__FaceEmbeddingArray__FIELDS, 2, 2},
+      {face_msgs__msg__FaceEmbeddingArray__FIELDS, 3, 3},
     },
-    {face_msgs__msg__FaceEmbeddingArray__REFERENCED_TYPE_DESCRIPTIONS, 13, 13},
+    {face_msgs__msg__FaceEmbeddingArray__REFERENCED_TYPE_DESCRIPTIONS, 14, 14},
   };
   if (!constructed) {
     assert(0 == memcmp(&builtin_interfaces__msg__Time__EXPECTED_HASH, builtin_interfaces__msg__Time__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
@@ -242,20 +265,22 @@ face_msgs__msg__FaceEmbeddingArray__get_type_description(
     description.referenced_type_descriptions.data[4].fields = geometry_msgs__msg__PoseWithCovariance__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&geometry_msgs__msg__Quaternion__EXPECTED_HASH, geometry_msgs__msg__Quaternion__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
     description.referenced_type_descriptions.data[5].fields = geometry_msgs__msg__Quaternion__get_type_description(NULL)->type_description.fields;
+    assert(0 == memcmp(&sensor_msgs__msg__Image__EXPECTED_HASH, sensor_msgs__msg__Image__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
+    description.referenced_type_descriptions.data[6].fields = sensor_msgs__msg__Image__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&std_msgs__msg__Header__EXPECTED_HASH, std_msgs__msg__Header__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[6].fields = std_msgs__msg__Header__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[7].fields = std_msgs__msg__Header__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&vision_msgs__msg__BoundingBox2D__EXPECTED_HASH, vision_msgs__msg__BoundingBox2D__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[7].fields = vision_msgs__msg__BoundingBox2D__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[8].fields = vision_msgs__msg__BoundingBox2D__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&vision_msgs__msg__Detection2D__EXPECTED_HASH, vision_msgs__msg__Detection2D__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[8].fields = vision_msgs__msg__Detection2D__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[9].fields = vision_msgs__msg__Detection2D__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&vision_msgs__msg__ObjectHypothesis__EXPECTED_HASH, vision_msgs__msg__ObjectHypothesis__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[9].fields = vision_msgs__msg__ObjectHypothesis__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[10].fields = vision_msgs__msg__ObjectHypothesis__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&vision_msgs__msg__ObjectHypothesisWithPose__EXPECTED_HASH, vision_msgs__msg__ObjectHypothesisWithPose__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[10].fields = vision_msgs__msg__ObjectHypothesisWithPose__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[11].fields = vision_msgs__msg__ObjectHypothesisWithPose__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&vision_msgs__msg__Point2D__EXPECTED_HASH, vision_msgs__msg__Point2D__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[11].fields = vision_msgs__msg__Point2D__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[12].fields = vision_msgs__msg__Point2D__get_type_description(NULL)->type_description.fields;
     assert(0 == memcmp(&vision_msgs__msg__Pose2D__EXPECTED_HASH, vision_msgs__msg__Pose2D__get_type_hash(NULL), sizeof(rosidl_type_hash_t)));
-    description.referenced_type_descriptions.data[12].fields = vision_msgs__msg__Pose2D__get_type_description(NULL)->type_description.fields;
+    description.referenced_type_descriptions.data[13].fields = vision_msgs__msg__Pose2D__get_type_description(NULL)->type_description.fields;
     constructed = true;
   }
   return &description;
@@ -263,6 +288,7 @@ face_msgs__msg__FaceEmbeddingArray__get_type_description(
 
 static char toplevel_type_raw_source[] =
   "std_msgs/Header header\n"
+  "sensor_msgs/Image image\n"
   "face_msgs/Face[] faces";
 
 static char msg_encoding[] = "msg";
@@ -277,7 +303,7 @@ face_msgs__msg__FaceEmbeddingArray__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {face_msgs__msg__FaceEmbeddingArray__TYPE_NAME, 32, 32},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 46, 46},
+    {toplevel_type_raw_source, 70, 70},
   };
   return &source;
 }
@@ -287,8 +313,8 @@ face_msgs__msg__FaceEmbeddingArray__get_type_description_sources(
   const rosidl_message_type_support_t * type_support)
 {
   (void)type_support;
-  static rosidl_runtime_c__type_description__TypeSource sources[14];
-  static const rosidl_runtime_c__type_description__TypeSource__Sequence source_sequence = {sources, 14, 14};
+  static rosidl_runtime_c__type_description__TypeSource sources[15];
+  static const rosidl_runtime_c__type_description__TypeSource__Sequence source_sequence = {sources, 15, 15};
   static bool constructed = false;
   if (!constructed) {
     sources[0] = *face_msgs__msg__FaceEmbeddingArray__get_individual_type_description_source(NULL),
@@ -298,13 +324,14 @@ face_msgs__msg__FaceEmbeddingArray__get_type_description_sources(
     sources[4] = *geometry_msgs__msg__Pose__get_individual_type_description_source(NULL);
     sources[5] = *geometry_msgs__msg__PoseWithCovariance__get_individual_type_description_source(NULL);
     sources[6] = *geometry_msgs__msg__Quaternion__get_individual_type_description_source(NULL);
-    sources[7] = *std_msgs__msg__Header__get_individual_type_description_source(NULL);
-    sources[8] = *vision_msgs__msg__BoundingBox2D__get_individual_type_description_source(NULL);
-    sources[9] = *vision_msgs__msg__Detection2D__get_individual_type_description_source(NULL);
-    sources[10] = *vision_msgs__msg__ObjectHypothesis__get_individual_type_description_source(NULL);
-    sources[11] = *vision_msgs__msg__ObjectHypothesisWithPose__get_individual_type_description_source(NULL);
-    sources[12] = *vision_msgs__msg__Point2D__get_individual_type_description_source(NULL);
-    sources[13] = *vision_msgs__msg__Pose2D__get_individual_type_description_source(NULL);
+    sources[7] = *sensor_msgs__msg__Image__get_individual_type_description_source(NULL);
+    sources[8] = *std_msgs__msg__Header__get_individual_type_description_source(NULL);
+    sources[9] = *vision_msgs__msg__BoundingBox2D__get_individual_type_description_source(NULL);
+    sources[10] = *vision_msgs__msg__Detection2D__get_individual_type_description_source(NULL);
+    sources[11] = *vision_msgs__msg__ObjectHypothesis__get_individual_type_description_source(NULL);
+    sources[12] = *vision_msgs__msg__ObjectHypothesisWithPose__get_individual_type_description_source(NULL);
+    sources[13] = *vision_msgs__msg__Point2D__get_individual_type_description_source(NULL);
+    sources[14] = *vision_msgs__msg__Pose2D__get_individual_type_description_source(NULL);
     constructed = true;
   }
   return &source_sequence;

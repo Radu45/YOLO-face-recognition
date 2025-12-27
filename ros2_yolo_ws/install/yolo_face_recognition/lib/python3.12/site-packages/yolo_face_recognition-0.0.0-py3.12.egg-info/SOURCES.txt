@@ -14,8 +14,10 @@ test/test_flake8.py
 test/test_pep257.py
 yolo_face_recognition/__init__.py
 yolo_face_recognition/config/config.yaml
+yolo_face_recognition/config/faces.yaml
 yolo_face_recognition/models/yolov12n-face.pt
 yolo_face_recognition/nodes/__init__.py
 yolo_face_recognition/nodes/camera_publisher_node.py
 yolo_face_recognition/nodes/detector_node.py
 yolo_face_recognition/nodes/embedding_node.py
+yolo_face_recognition/nodes/tracking_node.py

@@ -577,7 +577,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/radu28/miniforge3/bin/python3][/home/radu28/miniforge3/include/python3.12][/home/radu28/miniforge3/lib/libpython3.12.so][/home/radu28/miniforge3/lib/python3.12/site-packages/numpy/core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.12.12()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/radu28/miniforge3/bin/python3][/home/radu28/miniforge3/include/python3.12][/home/radu28/miniforge3/lib/libpython3.12.so][/home/radu28/miniforge3/lib/python3.12/site-packages/numpy/_core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.12.12()]
 //Details about finding PythonExtra
 FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[/home/radu28/miniforge3/bin/python3][/home/radu28/miniforge3/bin/python3][v()]
 //The directory for Python library installation. This needs to
@@ -597,9 +597,11 @@ _Python3_INCLUDE_DIR:INTERNAL=/home/radu28/miniforge3/include/python3.12
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;12;64;;cpython-312-aarch64-linux-gnu;abi3;/home/radu28/miniforge3/lib/python3.12;/home/radu28/miniforge3/lib/python3.12;/home/radu28/miniforge3/lib/python3.12/site-packages;/home/radu28/miniforge3/lib/python3.12/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=6612d1670c1be0ad46a6cfbe19201ae8
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python3_LIBRARY_RELEASE:INTERNAL=/home/radu28/miniforge3/lib/libpython3.12.so
 _Python3_NUMPY_SIGNATURE:INTERNAL=56a920b42c8cfd40de5f3a5fe2587666
 //Path to a file.
-_Python3_NumPy_INCLUDE_DIR:INTERNAL=/home/radu28/miniforge3/lib/python3.12/site-packages/numpy/core/include
+_Python3_NumPy_INCLUDE_DIR:INTERNAL=/home/radu28/miniforge3/lib/python3.12/site-packages/numpy/_core/include
 

@@ -40,16 +40,32 @@ private:
   ::face_msgs::msg::FaceEmbeddingArray msg_;
 };
 
+class Init_FaceEmbeddingArray_image
+{
+public:
+  explicit Init_FaceEmbeddingArray_image(::face_msgs::msg::FaceEmbeddingArray & msg)
+  : msg_(msg)
+  {}
+  Init_FaceEmbeddingArray_faces image(::face_msgs::msg::FaceEmbeddingArray::_image_type arg)
+  {
+    msg_.image = std::move(arg);
+    return Init_FaceEmbeddingArray_faces(msg_);
+  }
+
+private:
+  ::face_msgs::msg::FaceEmbeddingArray msg_;
+};
+
 class Init_FaceEmbeddingArray_header
 {
 public:
   Init_FaceEmbeddingArray_header()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_FaceEmbeddingArray_faces header(::face_msgs::msg::FaceEmbeddingArray::_header_type arg)
+  Init_FaceEmbeddingArray_image header(::face_msgs::msg::FaceEmbeddingArray::_header_type arg)
   {
     msg_.header = std::move(arg);
-    return Init_FaceEmbeddingArray_faces(msg_);
+    return Init_FaceEmbeddingArray_image(msg_);
   }
 
 private:

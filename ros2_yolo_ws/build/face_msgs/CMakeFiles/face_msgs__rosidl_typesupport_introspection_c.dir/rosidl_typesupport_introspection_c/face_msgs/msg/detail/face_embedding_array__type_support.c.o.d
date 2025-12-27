@@ -76,6 +76,7 @@ CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face_embedding_array__struct.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__struct.h \
  /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.h \
  /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.h \
@@ -93,6 +94,12 @@ CMakeFiles/face_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__type_support.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/image.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/face.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__functions.h \
  /home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/rosidl_generator_c/face_msgs/msg/detail/face__type_support.h \

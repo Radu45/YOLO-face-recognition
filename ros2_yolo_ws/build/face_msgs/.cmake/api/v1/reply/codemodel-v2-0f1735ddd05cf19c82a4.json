@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-59df88537fe64301e5c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "face_msgs__py",
+					"jsonFile" : "directory-face_msgs__py-a3369961a1ea90c74363.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs/face_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "face_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_face_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_face_msgs_egg-7fa0982455a4d26324dc.json",
+					"name" : "ament_cmake_python_build_face_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_face_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_face_msgs-519a569974ac3c38b30f.json",
+					"name" : "ament_cmake_python_copy_face_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs-c756e9a1a93ad8fe068f.json",
+					"name" : "face_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__cpp-eb1d4dabac9bcbfc3282.json",
+					"name" : "face_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "face_msgs__py::@d84055337521f6397a8f",
+					"jsonFile" : "target-face_msgs__py-2aff4037c206863780db.json",
+					"name" : "face_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_generator_c-f0303b1a016a38c523ce.json",
+					"name" : "face_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_generator_py-2fe867fc1a7d92e63b66.json",
+					"name" : "face_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_generator_type_description-15cf80d70dd4f4c4e9a3.json",
+					"name" : "face_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_typesupport_c-aaa468731f322201d05f.json",
+					"name" : "face_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_typesupport_cpp-88edb05761673b282a8b.json",
+					"name" : "face_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_typesupport_fastrtps_c-1207bd55a241e029ab08.json",
+					"name" : "face_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_typesupport_fastrtps_cpp-8e139d58fbb051fda684.json",
+					"name" : "face_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_typesupport_introspection_c-fa025ebdb06c3eabddab.json",
+					"name" : "face_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs__rosidl_typesupport_introspection_cpp-6be0a5a66ac22ee845a5.json",
+					"name" : "face_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs_s__rosidl_typesupport_c-0b3b0f19debbe3524796.json",
+					"name" : "face_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs_s__rosidl_typesupport_fastrtps_c-fcd61a980a11995fff8c.json",
+					"name" : "face_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs_s__rosidl_typesupport_introspection_c-ec86702a39dafbcafb7e.json",
+					"name" : "face_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_msgs_uninstall-c1eacf34db28cfe403ee.json",
+					"name" : "face_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cc6f4f25c33b56a3bc4f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/build/face_msgs",
+		"source" : "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

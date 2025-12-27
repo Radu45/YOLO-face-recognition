@@ -83,7 +83,7 @@ void resize_function__FaceEmbeddingArray__faces(void * untyped_member, size_t si
   member->resize(size);
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember FaceEmbeddingArray_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember FaceEmbeddingArray_message_member_array[3] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -94,6 +94,24 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember FaceEmbedding
     0,  // array size
     false,  // is upper bound
     offsetof(face_msgs::msg::FaceEmbeddingArray, header),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "image",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<sensor_msgs::msg::Image>(),  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(face_msgs::msg::FaceEmbeddingArray, image),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -125,7 +143,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember FaceEmbedding
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers FaceEmbeddingArray_message_members = {
   "face_msgs::msg",  // message namespace
   "FaceEmbeddingArray",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(face_msgs::msg::FaceEmbeddingArray),
   false,  // has_any_key_member_
   FaceEmbeddingArray_message_member_array,  // message members

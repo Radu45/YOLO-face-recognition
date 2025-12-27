@@ -1,0 +1,243 @@
+[0.247s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.248s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xee2b192932f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xee2b19292db0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xee2b19292db0>>, mixin_verb=('build',))
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.336s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/radu28/Documents/YOLO-face-recognition'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/build) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/build) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/install) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/install) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/log) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/log) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/face_msgs) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_yolo_ws/src/face_msgs' with type 'ros.ament_cmake' and name 'face_msgs'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_yolo_ws/src/yolo_face_recognition) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_yolo_ws/src/yolo_face_recognition' with type 'ros.ament_python' and name 'yolo_face_recognition'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'face_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'face_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radu28/Documents/YOLO-face-recognition/build/face_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs', 'merge_install': False, 'path': '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'yolo_face_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_face_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition', 'merge_install': False, 'path': '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition', 'symlink_install': False, 'test_result_base': None}
+[0.531s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.533s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs' with build type 'ament_cmake'
+[0.534s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs'
+[0.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu28/Documents/YOLO-face-recognition/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --build /home/radu28/Documents/YOLO-face-recognition/build/face_msgs -- -j4 -l4
+[2.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu28/Documents/YOLO-face-recognition/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --build /home/radu28/Documents/YOLO-face-recognition/build/face_msgs -- -j4 -l4
+[2.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu28/Documents/YOLO-face-recognition/build/face_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --install /home/radu28/Documents/YOLO-face-recognition/build/face_msgs
+[3.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_msgs)
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu28/Documents/YOLO-face-recognition/build/face_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv_yolo_py312) \u@\h:\w$ VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/cmake --install /home/radu28/Documents/YOLO-face-recognition/build/face_msgs
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs' for CMake module files
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs' for CMake config files
+[3.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_msgs', 'cmake_prefix_path')
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/cmake_prefix_path.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/cmake_prefix_path.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/cmake_prefix_path.sh'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib'
+[3.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_msgs', 'ld_library_path_lib')
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/ld_library_path_lib.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/ld_library_path_lib.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/ld_library_path_lib.sh'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/bin'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib/pkgconfig/face_msgs.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib/python3.12/site-packages'
+[3.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_msgs', 'pythonpath')
+[3.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/pythonpath.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/pythonpath.dsv'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/pythonpath.sh'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/bin'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.ps1'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.dsv'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.sh'
+[3.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.bash'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.zsh'
+[3.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/colcon-core/packages/face_msgs)
+[3.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_msgs)
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs' for CMake module files
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs' for CMake config files
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_msgs', 'cmake_prefix_path')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/cmake_prefix_path.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/cmake_prefix_path.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/cmake_prefix_path.sh'
+[3.134s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib'
+[3.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_msgs', 'ld_library_path_lib')
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/ld_library_path_lib.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/ld_library_path_lib.dsv'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/ld_library_path_lib.sh'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/bin'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib/pkgconfig/face_msgs.pc'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib/python3.12/site-packages'
+[3.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_msgs', 'pythonpath')
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/pythonpath.ps1'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/pythonpath.dsv'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/hook/pythonpath.sh'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/bin'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.ps1'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.dsv'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.sh'
+[3.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.bash'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/face_msgs/package.zsh'
+[3.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/share/colcon-core/packages/face_msgs)
+[3.144s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition' with build type 'ament_python'
+[3.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_face_recognition', 'ament_prefix_path')
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/hook/ament_prefix_path.ps1'
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/hook/ament_prefix_path.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/hook/ament_prefix_path.sh'
+[3.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.741s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition'
+[3.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition': AMENT_PREFIX_PATH=/home/radu28/Documents/YOLO-face-recognition/install/face_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radu28/Documents/YOLO-face-recognition/install/face_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv_yolo_py312) \u@\h:\w$ PYTHONPATH=/home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/lib/python3.12/site-packages:/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_face_recognition build --build-base /home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition/build install --record /home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition/install.log --single-version-externally-managed install_data
+[6.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition' returned '0': AMENT_PREFIX_PATH=/home/radu28/Documents/YOLO-face-recognition/install/face_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radu28/Documents/YOLO-face-recognition/install/face_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv_yolo_py312) \u@\h:\w$ PYTHONPATH=/home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/lib/python3.12/site-packages:/home/radu28/Documents/YOLO-face-recognition/install/face_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_yolo_py312) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_face_recognition build --build-base /home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition/build install --record /home/radu28/Documents/YOLO-face-recognition/build/yolo_face_recognition/install.log --single-version-externally-managed install_data
+[6.454s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition' for CMake module files
+[6.455s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition' for CMake config files
+[6.457s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/lib'
+[6.466s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/bin'
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/lib/pkgconfig/yolo_face_recognition.pc'
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/lib/python3.12/site-packages'
+[6.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_face_recognition', 'pythonpath')
+[6.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/hook/pythonpath.ps1'
+[6.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/hook/pythonpath.dsv'
+[6.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/hook/pythonpath.sh'
+[6.488s] Level 1:colcon.colcon_core.environment:checking '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/bin'
+[6.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_face_recognition)
+[6.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/package.ps1'
+[6.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/package.dsv'
+[6.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/package.sh'
+[6.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/package.bash'
+[6.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/package.zsh'
+[6.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu28/Documents/YOLO-face-recognition/install/yolo_face_recognition/share/colcon-core/packages/yolo_face_recognition)
+[6.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.530s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.632s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.632s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.773s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu28/Documents/YOLO-face-recognition/install/local_setup.ps1'
+[6.780s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/radu28/Documents/YOLO-face-recognition/install/_local_setup_util_ps1.py'
+[6.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu28/Documents/YOLO-face-recognition/install/setup.ps1'
+[6.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu28/Documents/YOLO-face-recognition/install/local_setup.sh'
+[6.812s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/radu28/Documents/YOLO-face-recognition/install/_local_setup_util_sh.py'
+[6.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu28/Documents/YOLO-face-recognition/install/setup.sh'
+[6.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu28/Documents/YOLO-face-recognition/install/local_setup.bash'
+[6.860s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu28/Documents/YOLO-face-recognition/install/setup.bash'
+[6.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu28/Documents/YOLO-face-recognition/install/local_setup.zsh'
+[6.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu28/Documents/YOLO-face-recognition/install/setup.zsh'

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "face_msgs/msg/detail/face__struct.h"
+#include "face_msgs/msg/detail/face__functions.h"
 #include "face_msgs/msg/detail/face__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "face_msgs/msg/detail/face__functions.h"
-#include "face_msgs/msg/detail/face__struct.h"
 
 #ifdef __cplusplus
 extern "C"
