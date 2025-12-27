@@ -43,7 +43,7 @@ class Embedding_node(Node):
     
     def listener_callback(self, msg):
 
-        # retriving the header
+        # retrieving the header
         stamp = msg.header.stamp
         frame_id = msg.header.frame_id
 
@@ -78,6 +78,7 @@ class Embedding_node(Node):
             self.get_logger().info(f"Embedding generated: {embedding.shape}")
         
         embeddings_det = FaceEmbeddingArray()
+        embeddings_det.image = msg.image
         embeddings_det.header = msg.header
         
         for det, emb in zip(detections, embeddings):
