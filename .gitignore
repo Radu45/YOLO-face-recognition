@@ -3,5 +3,8 @@ YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition/yolo_face_recogniti
 YOLO-face-recognition/ros2_yolo_ws/src/yolo_face_recognition/yolo_face_recognition/models/
 YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/config/
 YOLO-face-recognition/install/yolo_face_recognition/share/yolo_face_recognition/models/
+YOLO-face-recognition/install/
+YOLO-face-recognition/log/
+YOLO-face-recognition/build/
 
 
