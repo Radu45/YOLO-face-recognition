@@ -1,6 +1,0 @@
-box_overlap: 0.3
-sim_reference: 0.5
-window_length: 10
-skipped_frames: 5
-mean : 0.7
-std: 0.05
