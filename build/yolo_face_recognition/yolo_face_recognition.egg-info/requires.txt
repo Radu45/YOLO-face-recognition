@@ -1,5 +1,0 @@
-setuptools
-opencv-python
-cvzone
-numpy
-PyYAML

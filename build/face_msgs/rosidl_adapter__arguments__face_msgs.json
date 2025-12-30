@@ -1,8 +1,0 @@
-{
-  "package_name": "face_msgs",
-  "non_idl_tuples": [
-    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs:msg/FaceDetections.msg",
-    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs:msg/Face.msg",
-    "/home/radu28/Documents/YOLO-face-recognition/ros2_yolo_ws/src/face_msgs:msg/FaceEmbeddingArray.msg"
-  ]
-}
