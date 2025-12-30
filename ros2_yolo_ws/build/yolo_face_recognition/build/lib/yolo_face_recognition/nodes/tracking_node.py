@@ -18,10 +18,10 @@ def cosine_similarity(a, b):
 
 # Intersection over union 
 def iou(b1, b2):
-    """
-    Compute Intersection over Union (IoU) between two
-    vision_msgs/Detection2D bounding boxes.
-    """
+
+    # Intersection over union, as frames are recorded at a speed of 30 frames/s, a physical instance does not have time to move far away from the previous frame.
+    # We compare the current face detection with the last detection registered for the corresponding frame by seing hoe much they overlap (the resulted rectangle through overlap) 
+
 
     # Converting b1 to corners
     b1_x1 = b1.center.position.x - b1.size_x / 2.0
@@ -69,14 +69,30 @@ def load_embeddings(path):
 
     return embeddings_dict
 
+def load_params(path):
+
+    with open(path, "r") as f:
+        raw = yaml.safe_load(f)
+    
+    box_overlapping_iou = raw["box_overlap"]
+    length_window = raw["window_length"]
+    similarity = raw["sim_reference"]
+    mean = raw["mean"]
+    std = raw["std"]
+    skipped_frames = raw["skipped_frames"]
+
+    return box_overlapping_iou, length_window, similarity, mean, std, skipped_frames
+
+
 def best_similarity(reference_embedding, embeddings_list):
 
     best_sim = -1
     best_name = None
+    SIM_REF = 0.5
 
     for name,emb in embeddings_list.items():
         sim = cosine_similarity(reference_embedding, emb)
-        if sim > 0.5 and sim > best_sim:
+        if sim > SIM_REF and sim > best_sim:
             best_sim = sim
             best_name = name
     return best_sim, best_name
@@ -129,18 +145,38 @@ class Tracking_node(Node):
         # number of frames since we started investigating the current track
         self.nr_frames = 0
         pkg_share = get_package_share_directory('yolo_face_recognition')
-        config_path = Path(pkg_share) / 'config' / 'faces.yaml'
-        self.embeddings_reference = load_embeddings(config_path)
+        config_path_faces = Path(pkg_share) / 'config' / 'faces.yaml'
+        self.embeddings_reference = load_embeddings(config_path_faces)
+        config_path_params = Path(pkg_share) / 'config' / 'params.yaml'
+        self.box_overlap_iou, self.window_length, self.sim_reference_standard, self.mean, self.std, self.skipped_frames = load_params(config_path_params)
+
+
     
     def listener_callback(self, msg):
 
         faces_detected = msg.faces
         self.nr_frames += 1
         frame = self.br.imgmsg_to_cv2(msg.image, desired_encoding='rgb8')
-        alpha = 0.9
+        # assigning the faces to tracks and gathering evidence that supports the reference_embedding
+        self.track_faces(faces_detected)
+        # draw tracks over the frame to display the state of each track
+        self.draw_tracks(frame)
+        # giving up inactive tracks
+        self.cleanup_tracks()
+    
+    def draw_tracks(self, frame):
+        # looping through all tracks and inserting them into the frame based on their state
+        for track in self.tracks.values():
+            self.draw_track(frame, track)
+
+        cv2.imshow("Tracking", frame)
+        cv2.waitKey(1)
+    
+    def track_faces(self, faces_detected):
 
         # First we check all the detected faces within the frame against all tracks under investigation. Each face will be assigned to the most compatible track for which 
         # we gather evidence. The same face will never update 2 different tracks, because that would mean that this face occupies 2 different positions simultaneously 
+        alpha = 0.9
         used_tracks = set()
         for face in faces_detected:
             best_track = None
@@ -153,11 +189,11 @@ class Tracking_node(Node):
                     continue
 
                 #first we compute the bounding box overlap 
-                if iou(face.detection.bbox, track.last_detection) < 0.3:
+                if iou(face.detection.bbox, track.last_detection) < self.box_overlap_iou:
                     continue
 
                 sim = cosine_similarity(track.track_embedding, face_emb)
-                if sim > 0.5 and sim > best_sim:
+                if sim > self.sim_reference_standard and sim > best_sim:
                     best_track = track
                     best_sim = sim 
             
@@ -166,10 +202,10 @@ class Tracking_node(Node):
                 sim_ref = cosine_similarity(best_track.track_embedding, best_track.reference_embedding)
                 # if window slide is full eliminate one of the ends and slide to the next frame
                 best_track.window_similarity.append(sim_ref)
-                if len(best_track.window_similarity) > 10:
+                if len(best_track.window_similarity) > self.window_length:
                     best_track.window_similarity.pop(0)
                 # updating the hypothesis
-                if sim_ref > 0.4:
+                if sim_ref > self.sim_reference_standard:
                     best_track.track_embedding = (
                        alpha * best_track.track_embedding + 
                        (1 - alpha) * face_emb
@@ -189,20 +225,14 @@ class Tracking_node(Node):
                     emb_similar = self.embeddings_reference[name]
                     self.create_track(face.detection.bbox, face_emb, emb_similar,name)
 
-        
-        for track in self.tracks.values():
-            self.draw_track(frame, track)
-        
-        cv2.imshow("Tracking", frame)
-        cv2.waitKey(1)
-            
-        self.cleanup_tracks()
-    
+
+
+
     def check_confirmation(self,track):
-        if len(track.window_similarity) >= 5:
+        if len(track.window_similarity) >= self.skipped_frames:
             mean = np.mean(track.window_similarity)
             standard_dev = np.std(track.window_similarity)
-            if mean > 0.7 and standard_dev < 0.05:
+            if mean > self.mean and standard_dev < self.std:
                 track.state = TrackState.CONFIRMED
                 track.label = track.candidate_name
     

@@ -19,7 +19,7 @@ class CameraPublisher(Node):
         with open(config_path, "r") as f:
             config = yaml.safe_load(f)
         camera_ip = config["camera_ip"]
-
+        # starting the camera
         self.camera = cv2.VideoCapture(f"tcp://{camera_ip}:8080", cv2.CAP_FFMPEG)
 
         if not self.camera.isOpened():

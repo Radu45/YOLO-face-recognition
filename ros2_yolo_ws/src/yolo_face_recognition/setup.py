@@ -27,7 +27,12 @@ setup(
             ['yolo_face_recognition/models/yolov12n-face.pt']),
         
         ('share/' + package_name + '/config',
-            ['yolo_face_recognition/config/faces.yaml'])
+            ['yolo_face_recognition/config/faces.yaml']),
+        
+        ('share/' + package_name + '/config',
+            ['yolo_face_recognition/config/params.yaml'])
+        
+
         
 
     ],
