@@ -28,7 +28,7 @@ Each node performs a well defined task which provides robustness and scalability
    - Source camera provided in the node can be replaced with any other ROS2 compatible camera, ensuring in this way hardware flexibility
 
 2) Detection node:
-   Model used for face detection : YOLOv12n (face-specific variant)
+   Model used for face detection : YOLOv12n (face-specific variant). This model was taken from https://github.com/YapaLab/yolo-face
    Responsibility of this nodeL:
    - Receives camera frames
    - Performs face detection
