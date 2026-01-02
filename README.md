@@ -104,6 +104,16 @@ Embeddings must be:
 - Normalized
 - Generated using the same embedding model
 
+Parameters for fine-tuning the face detection and recognition pipeline are stored in config/params.yaml. These parameters are:
+- box_overlap
+  - The proportion of the shared area of two bounding boxes out of the total area occupied by both of them. 
+- sim_reference
+  - Cosine similarity threshold for comparing two face embeddings. Embeddings with similarity above this threshold are considered likely to belong to the same identity, 
+- window_length
+  - Length of the sliding window for evidence gathering; how many frames to capture to test the hypothesis
+- mean and std
+    - Metrics computed over the sliding window (average similarity and standard deviation). Used to confirm the identity of a track when the similarity is consistently high and stable.
+
 ## Face Identity Management and Tracking Logic
 
 The tracking module is responsible for maintaining **persistent identity hypotheses** across consecutive frames and validating them against known reference identities.
